@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: BloodCellSFX
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"Enter","label":null,"summary":null,"hideLabel":false}],"controlOutputDefinitions":[{"key":"Exit","label":null,"summary":null,"hideLabel":false}],"valueInputDefinitions":[{"hasDefaultValue":false,"defaultValue":null,"_type":"Unity.VisualScripting.AotList","key":"List
+      of Sounds","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-426.0,"y":-15.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-768.0,"y":-206.0},"guid":"07a7610d-2445-4677-8552-f7001f330660","$version":"A","$type":"Unity.VisualScripting.GraphInput","$id":"12"},{"defaultValues":{},"position":{"x":-89.0,"y":-207.0},"guid":"ad8fb116-a6ca-40f6-9e8b-872d047cd742","$version":"A","$type":"Unity.VisualScripting.GraphOutput","$id":"14"},{"chainable":false,"member":{"name":"Range","parameterTypes":["System.Single","System.Single"],"targetType":"UnityEngine.Random","targetTypeName":"UnityEngine.Random","$version":"A"},"defaultValues":{"%minInclusive":{"$content":0.0,"$type":"System.Single"},"%maxInclusive":{"$content":2.0,"$type":"System.Single"}},"position":{"x":-555.0,"y":-207.0},"guid":"e03c1c3c-5a5f-45f6-b584-d042069204bc","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"16"},{"chainable":false,"member":{"name":"PlayClipAtPoint","parameterTypes":["UnityEngine.AudioClip","UnityEngine.Vector3"],"targetType":"UnityEngine.AudioSource","targetTypeName":"UnityEngine.AudioSource","$version":"A"},"defaultValues":{"%clip":null,"%position":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"}},"position":{"x":-343.0,"y":-207.0},"guid":"c78e73fb-3cad-4286-bd3d-4dd24af0a957","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"19"},{"defaultValues":{"index":{"$content":0,"$type":"System.Int32"}},"position":{"x":-508.0,"y":-56.0},"guid":"6598a12d-9ad2-479f-8d68-07b22e296a64","$version":"A","$type":"Unity.VisualScripting.GetListItem","$id":"22"},{"sourceUnit":{"$ref":"12"},"sourceKey":"Enter","destinationUnit":{"$ref":"16"},"destinationKey":"enter","guid":"ae8b2b1a-62e9-41db-ae92-e0d1e39a7f45","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"exit","destinationUnit":{"$ref":"19"},"destinationKey":"enter","guid":"23cbc699-2b6b-4ef4-bd7d-4b0a92ca4f2c","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"exit","destinationUnit":{"$ref":"14"},"destinationKey":"Exit","guid":"28dd0b1a-e73b-4ff5-8fd7-2759902ebe7d","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"22"},"sourceKey":"item","destinationUnit":{"$ref":"19"},"destinationKey":"%clip","guid":"39e87b2d-93ca-417b-b0e1-86e89cd1faa7","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"List
+      of Sounds","destinationUnit":{"$ref":"22"},"destinationKey":"list","guid":"9068a420-f5d6-4990-a0d5-8e161a3c8b1c","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
